@@ -5,9 +5,9 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
 	<modelVersion>4.0.0</modelVersion>
-	<artifactId>PracticaSoftwareColaborativo2016</artifactId>
+	<artifactId>PSCJavierMolina</artifactId>
 	<groupId>es.upm.miw</groupId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>${project.groupId}.${project.artifactId}</name>
@@ -159,13 +159,12 @@
 
 	<developers>
 		<developer>
-			<name>Nombre y Apellidos</name>
-			<id>***</id>
-			<email>***@alumnos.upm.es</email>
+			<name>Javier Molina Maldonado</name>
+			<id>bh0668</id>
+			<email>javier.molina.maldonado@alumnos.upm.es</email>
 			<organization>MIW UPM</organization>
 			<roles>
 				<role>Architect</role>
-				<role>Developer</role>
 			</roles>
 		</developer>
 	</developers>
