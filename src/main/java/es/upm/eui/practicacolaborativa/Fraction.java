@@ -60,4 +60,22 @@ public class Fraction {
         return (double) numerator / denominator;
     }
     
+    public Fraction subtraction(Fraction fraction){
+    	int newNumerator = getNumerator()*fraction.getDenominator() - getDenominator()*fraction.getNumerator();
+    	int newDenominator = getDenominator()*fraction.getDenominator();
+    	return new Fraction (newNumerator, newDenominator);
+    }
+    
+    @Override
+    public boolean equals(Object fraction){
+    	if(fraction == null)
+    		return false;
+    	if(getClass() != fraction.getClass())
+    		return false;
+    	if(getClass() == fraction.getClass())
+    		return decimal() == ((Fraction) fraction).decimal();
+    	else 
+    		return false;
+    }
+    
 }
